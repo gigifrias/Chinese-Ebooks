@@ -25,11 +25,12 @@
     <meta name="calibre:author_link_map" content="{&quot;美國之音, VOA&quot;: &quot;&quot;}"/>
   </metadata>
 <manifest>
-    <item href="cover.jpeg" id="cover" media-type="image/jpeg"/>
-    <item href="fonts/AdobeHeitiStd-Regular.otf" id="font" media-type="application/vnd.ms-opentype"/>
-    <item href="fonts/AdobeHeitiStd-Bold.otf" id="font1" media-type="application/vnd.ms-opentype"/>
-    <item href="fonts/ヒラギノ明朝 Pro W6.otf" id="font2" media-type="application/vnd.ms-opentype"/>
-    <item href="fonts/ヒラギノ明朝 Pro W3.otf" id="font3" media-type="application/vnd.ms-opentype"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-image" properties="cover-image" href="cover.jpg" media-type="image/jpeg"/>
+    <item id="epub.embedded.font.1" href="fonts/AdobeHeitiStd-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.2" href="fonts/AdobeHeitiStd-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.3" href="fonts/ヒラギノ明朝 Pro W6.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.4" href="fonts/ヒラギノ明朝 Pro W3.otf" media-type="application/vnd.ms-opentype"/>
     <item href="images/3_6Hao_Tie_Si_Wang_.jpeg" id="id3" media-type="image/jpeg"/>
     <item href="images/AP840111014.jpeg" id="id4" media-type="image/jpeg"/>
     <item href="images/Fu_Qiang_Hu_Tong_6Hao_Da_Men_.jpeg" id="id5" media-type="image/jpeg"/>
@@ -70,6 +71,6 @@
     <itemref idref="id21"/>
   </spine>
   <guide>
-    <reference href="titlepage.xhtml" title="Cover" type="cover"/>
+    <reference href="cover.xhtml" title="Cover" type="cover"/>
   </guide>
 </package>
