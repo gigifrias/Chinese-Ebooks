@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='BIG5'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" lang="zh-Hant" xml:lang="zh-Hant">
+  <head>
+        <meta http-equiv="Content-Language" content="zh-Hant"/>
+    <meta content="d56fad85-b3de-4c8e-85e1-a3c8dd343677" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (1.21.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>国家机密 一 第篇：趙紫陽最後的歲月</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="ub6d5c7d9-0572-49e2-9c31-24f047d1538e" playOrder="1">
+      <navLabel>
+        <text>1</text>
+      </navLabel>
+      <content src="index_split_010.html#note_1"/>
+    </navPoint>
+    <navPoint id="u9af457d2-9373-4d91-a67f-0c8ccf027f5e" playOrder="2">
+      <navLabel>
+        <text>←1</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+    </navPoint>
+    <navPoint id="u70eb4f42-b0e7-4c05-98a7-f0faea921bb5" playOrder="3">
+      <navLabel>
+        <text>(Untitled)</text>
+      </navLabel>
+      <content src="index_split_003.html#id_Toc352651314"/>
+    </navPoint>
+  </navMap>
+</ncx>
