@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='BIG5'?>
+<?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:creator opf:role="aut" opf:file-as="VOA">VOA</dc:creator>
@@ -8,7 +8,6 @@
     <dc:description>中共前總書記趙紫陽爲何在被軟禁的生命最後階段爆發出縱情大笑？</dc:description>
     <dc:language>zh</dc:language>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
-    <dc:contributor opf:role="bkp">calibre (1.28.0) [http://calibre-ebook.com]</dc:contributor>
     <dc:identifier id="uuid_id" opf:scheme="uuid">816c1b80-d153-4b70-ae35-beefd036be15</dc:identifier>
     <dc:title>第篇: 趙紫陽最後的歲月</dc:title>
     <dc:subject>国家机密</dc:subject>
@@ -16,61 +15,42 @@
     <dc:subject>美國之音</dc:subject>
     <dc:subject>VOA</dc:subject>
     <dc:identifier opf:scheme="calibre">816c1b80-d153-4b70-ae35-beefd036be15</dc:identifier>
-    <meta name="calibre:series_index" content="1.0"/>
-    <meta name="calibre:title_sort" content="国家机密 一 第篇：趙紫陽最後的歲月"/>
-    <meta name="calibre:timestamp" content="2014-03-20T18:57:06.975855+00:00"/>
     <meta name="cover" content="cover"/>
-    <meta name="calibre:series" content="国家机密"/>
-    <meta name="calibre:user_categories" content="{}"/>
-    <meta name="calibre:author_link_map" content="{&quot;美國之音, VOA&quot;: &quot;&quot;}"/>
   </metadata>
-<manifest>
+	<manifest>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <item id="cover-image" properties="cover-image" href="cover.jpg" media-type="image/jpeg"/>
-    <item id="epub.embedded.font.1" href="fonts/AdobeHeitiStd-Regular.otf" media-type="application/vnd.ms-opentype"/>
-    <item id="epub.embedded.font.2" href="fonts/AdobeHeitiStd-Bold.otf" media-type="application/vnd.ms-opentype"/>
-    <item id="epub.embedded.font.3" href="fonts/ヒラギノ明朝 Pro W6.otf" media-type="application/vnd.ms-opentype"/>
-    <item id="epub.embedded.font.4" href="fonts/ヒラギノ明朝 Pro W3.otf" media-type="application/vnd.ms-opentype"/>
-    <item href="images/3_6Hao_Tie_Si_Wang_.jpeg" id="id3" media-type="image/jpeg"/>
-    <item href="images/AP840111014.jpeg" id="id4" media-type="image/jpeg"/>
-    <item href="images/Fu_Qiang_Hu_Tong_6Hao_Da_Men_.jpeg" id="id5" media-type="image/jpeg"/>
-    <item href="images/Yao.jpeg" id="id6" media-type="image/jpeg"/>
-    <item href="images/Zhao_Zai_Guang_Chang_.jpeg" id="id7" media-type="image/jpeg"/>
-    <item href="images/ZhaoinOffice.jpeg" id="id10" media-type="image/jpeg"/>
-    <item href="images/zhaoGorb.jpeg" id="id9" media-type="image/jpeg"/>
-    <item href="images/zhao_ziyang_golf.jpeg" id="id8" media-type="image/jpeg"/>
-    <item href="images/zongmingfeng.jpeg" id="id11" media-type="image/jpeg"/>
-    <item href="index_split_000.html" id="id211" media-type="application/xhtml+xml"/>
-    <item href="index_split_001.html" id="id210" media-type="application/xhtml+xml"/>
-    <item href="index_split_002.html" id="id29" media-type="application/xhtml+xml"/>
-    <item href="index_split_003.html" id="id28" media-type="application/xhtml+xml"/>
-    <item href="index_split_004.html" id="id27" media-type="application/xhtml+xml"/>
-    <item href="index_split_005.html" id="id26" media-type="application/xhtml+xml"/>
-    <item href="index_split_006.html" id="id25" media-type="application/xhtml+xml"/>
-    <item href="index_split_007.html" id="id24" media-type="application/xhtml+xml"/>
-    <item href="index_split_008.html" id="id23" media-type="application/xhtml+xml"/>
-    <item href="index_split_009.html" id="id22" media-type="application/xhtml+xml"/>
-    <item href="index_split_010.html" id="id21" media-type="application/xhtml+xml"/>
-    <item href="page_styles.css" id="page_css" media-type="text/css"/>
-    <item href="stylesheet.css" id="css" media-type="text/css"/>
-    <item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
-    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="cover-image" href="cover.jpg" media-type="image/jpeg"/>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="intro" href="introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="body" href="bodymatter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="back" href="backmatter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="font1" href="fonts/AdobeHeitiStd-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="font2" href="fonts/AdobeFanHeitiStd-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="font3" href="fonts/ヒラギノ明朝ProW6.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="font4" href="fonts/ヒラギノ明朝ProW3.otf" media-type="application/vnd.ms-opentype"/>
+    <item href="images/3_6Hao_Tie_Si_Wang_.jpeg" id="Hao" media-type="image/jpeg"/>
+    <item href="images/AP840111014.jpeg" id="AP" media-type="image/jpeg"/>
+    <item href="images/Fu_Qiang_Hu_Tong_6Hao_Da_Men_.jpeg" id="Fu" media-type="image/jpeg"/>
+    <item href="images/Yao.jpeg" id="Yao" media-type="image/jpeg"/>
+    <item href="images/Zhao_Zai_Guang_Chang_.jpeg" id="ZhaoZai" media-type="image/jpeg"/>
+    <item href="images/ZhaoinOffice.jpeg" id="Zhao" media-type="image/jpeg"/>
+    <item href="images/zhaoGorb.jpeg" id="ZhaoGorb" media-type="image/jpeg"/>
+    <item href="images/zhao_ziyang_golf.jpeg" id="ZhaoGolf" media-type="image/jpeg"/>
+    <item href="images/zongmingfeng.jpeg" id="Zong" media-type="image/jpeg"/>
+		<item href="LICENSE" id="license" media-type="application/xhtml+xml"/>
+		<item href="README.md" id="readme" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>
-    <itemref idref="id211"/>
-    <itemref idref="id210"/>
-    <itemref idref="id29"/>
-    <itemref idref="id28"/>
-    <itemref idref="id27"/>
-    <itemref idref="id26"/>
-    <itemref idref="id25"/>
-    <itemref idref="id24"/>
-    <itemref idref="id23"/>
-    <itemref idref="id22"/>
-    <itemref idref="id21"/>
+    <itemref idref="intro"/>
+    <itemref idref="body"/>
+    <itemref idref="back"/>
   </spine>
   <guide>
-    <reference href="cover.xhtml" title="Cover" type="cover"/>
+    <reference href="cover.jpg" title="Cover" type="cover"/>
   </guide>
 </package>

@@ -32,11 +32,11 @@ body {
 }
 
 /*Images*/
-img.cover-image {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    border: 0;
+svg {/*Wrapper for responsive scaling: works with added inline padding-bottom in aspect ratio to the width*/
+    width: 100%;
+    height: 1px;
+    overflow: visible;
+    page-break-inside: avoid;
 }
 
 img {
@@ -44,24 +44,30 @@ img {
     margin: 0 auto;
     border: solid .1em lightgray;
     text-align: center;
+    page-break-inside: avoid;
+}
+
+img.cover-image {
+    display: block;
+    border: 0;
 }
 
 .caption {
+		font: .7em/1em "Hiragino Mincho Pro", serif;
     text-align: center;
-    font-size: 0.625em;
     display: inline-block;
 }
 
-/*Wrap this around h3, h4, h5 + first paragraph of text to keep together on some e-readers*/
-div.keeptext {
-    page-break-inside: avoid;
+/*Wrap this around headings + first paragraph of text to keep together on some e-readers*/
+.keeptext {
+    page-break-inside: avoid !important;
     margin: 0 !important;
 }
 
 /*Headlines*/
 h1, h2, h3, h4, h5, h6 {
-    page-break-inside: avoid;
-    page-break-after: avoid;
+    page-break-inside: avoid !important;
+    page-break-after: avoid !important;
 }
 
 h1 {
@@ -73,27 +79,33 @@ h1 {
 h2 {
     font: 1.5em/1.2em "Hiragino Mincho Pro", serif;
     text-align: center;
+    margin: .5em 0 .35em;
 }
 
+/*Use this span around other tags in XHTML to fix Apple/iBooks bug regarding centered text*/
+span.applebug {}
 
 /*Body Text*/
 p.first, h1+p, h2+p {text-indent: 0;} /* First Paragraph not indented */
 
 p {
-    font: 1em/1.5em "Adobe Heiti Std", sans-serif;
+    font: .9em/1.5em "Adobe Heiti Std", sans-serif;
+		margin-bottom: .35em;
+		text-align: left;
 }
 
 .center {
     text-align: center;
 }
 
-/*Use this span around other tags in XHTML to fix Apple/iBooks bug regarding centered text*/
-span.applebug {}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
-.series {
-    font: bold 4em/2em "Adobe Heiti Std", sans-serif;
-    page-break-inside: avoid;
-    text-align: center;
+.bridge {
+	font: .7em/2em "Adobe Heiti Std", sans-serif;
+	margin-bottom: 5em;
 }
 
 blockquote.pullout {
@@ -101,44 +113,25 @@ blockquote.pullout {
     margin: 2em 1em;
     padding: .5em;
     border: dotted 1pt;
+    page-break-inside: avoid;
 }
 
-div.images {
-    margin: 1em auto;
-    width: 50%;
+blockquote.announcement {
+    border: double 2pt;
+    margin: 2em 1em;
+    padding: .5em;
     text-align: center;
+    page-break-inside: avoid;
 }
 
-.calibre {
-    display: block;
-    font-family: "Adobe Heiti Std", sans-serif;
-    font-size: 1em;
-    line-height: 1.5;
-    text-align: left
+/*Endnote references*/
+sup {
+    font-size: .6em;
+    line-height: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
 }
-
-.decimal-list {
-    display: block;
-    list-style-type: decimal
-}
-
-.noteref {
-    font-size: 0.75em;
-    line-height: normal;
-    vertical-align: super
-}
-.notes-header {
-    display: block;
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1.2
-}
-.tab {
-    line-height: 1.2;
-    white-space: pre-wrap
-}
-
-
 
 /*Table of Contents lists*/
 li.toc-1 {
@@ -149,4 +142,14 @@ li.toc-1 {
 li.toc-2 {
     font: 1em/1.75em "Adobe Heiti Std", sans-serif;
     list-style: none;
+}
+
+/*Endnotes lists*/
+ul.endnotes li {
+		font-size: .7em;
+    margin-bottom: .7em;
+}
+
+#preface1, #preface2, #foreword, #start, #rearnotes, #afterword {
+	page-break-before: always;
 }

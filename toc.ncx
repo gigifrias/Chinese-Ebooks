@@ -1,34 +1,154 @@
-<?xml version='1.0' encoding='BIG5'?>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" lang="zh-Hant" xml:lang="zh-Hant">
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-Hant" xml:lang="zh-Hant">
   <head>
-        <meta http-equiv="Content-Language" content="zh-Hant"/>
-    <meta content="d56fad85-b3de-4c8e-85e1-a3c8dd343677" name="dtb:uid"/>
-    <meta content="2" name="dtb:depth"/>
-    <meta content="calibre (1.21.0)" name="dtb:generator"/>
-    <meta content="0" name="dtb:totalPageCount"/>
-    <meta content="0" name="dtb:maxPageNumber"/>
+    <meta name="Content-Type" content="text/html; charset=BIG5"/>
+    <meta name="Content-Language" content="zh-Hant"/>
   </head>
   <docTitle>
-    <text>国家机密 一 第篇：趙紫陽最後的歲月</text>
+    <text>趙紫陽最後的歲月</text>
   </docTitle>
   <navMap>
-    <navPoint id="ub6d5c7d9-0572-49e2-9c31-24f047d1538e" playOrder="1">
+    <navPoint id="preface" playOrder="1">
       <navLabel>
-        <text>1</text>
+        <text>解密時刻─一斑窺豹</text>
       </navLabel>
-      <content src="index_split_010.html#note_1"/>
+      <content src="introduction.xhtml#preface1"/>
     </navPoint>
-    <navPoint id="u9af457d2-9373-4d91-a67f-0c8ccf027f5e" playOrder="2">
+
+    <navPoint id="preface" playOrder="2">
       <navLabel>
-        <text>←1</text>
+        <text>解密─令人心動的時刻</text>
       </navLabel>
-      <content src="index_split_004.html"/>
+      <content src="introduction.xhtml#preface2"/>
     </navPoint>
-    <navPoint id="u70eb4f42-b0e7-4c05-98a7-f0faea921bb5" playOrder="3">
+
+    <navPoint id="foreword" playOrder="3">
       <navLabel>
-        <text>(Untitled)</text>
+        <text>前言：解密《解密時刻》</text>
       </navLabel>
-      <content src="index_split_003.html#id_Toc352651314"/>
+      <content src="introduction.xhtml#foreword"/>
+    </navPoint>
+
+    <navPoint id="start" playOrder="4">
+      <navLabel>
+        <text>趙紫陽最後的歲月</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#start"/>
+    </navPoint>
+    <navPoint id="part1" playOrder="5">
+      <navLabel>
+        <text>北京有個總書記監獄</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part1"/>
+    </navPoint>
+    <navPoint id="part2" playOrder="6">
+      <navLabel>
+        <text>他為何要縱情大笑？</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part2"/>
+    </navPoint>
+    <navPoint id="part3" playOrder="7">
+      <navLabel>
+        <text>政治家職業生涯突然中斷</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part3"/>
+    </navPoint>
+    <navPoint id="part4" playOrder="8">
+      <navLabel>
+        <text>孤獨是摧毀趙紫陽健康的殺手</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part4"/>
+    </navPoint>
+    <navPoint id="part5" playOrder="9">
+      <navLabel>
+        <text>死後受到的種種限制</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part5"/>
+    </navPoint>
+    <navPoint id="part6" playOrder="10">
+      <navLabel>
+        <text>告別儀式上的一個小意外</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part6"/>
+    </navPoint>
+    <navPoint id="part7" playOrder="11">
+      <navLabel>
+        <text>誰才是中國改革開放的真正“總設計師”？</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part7"/>
+    </navPoint>
+    <navPoint id="part8" playOrder="12">
+      <navLabel>
+        <text>“社會主義初級階段”的真正內涵</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part8"/>
+    </navPoint>
+    <navPoint id="part9" playOrder="13">
+      <navLabel>
+        <text>關於“六四”</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part9"/>
+    </navPoint>
+    <navPoint id="part10" playOrder="14">
+      <navLabel>
+        <text>惺惺相惜，為鄧趙之間的誤會深感遺憾趙紫陽最後的歲</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part10"/>
+    </navPoint>
+    <navPoint id="part11" playOrder="15">
+      <navLabel>
+        <text>命也、運也，趙為未能避免流血感到無奈</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part11"/>
+    </navPoint>
+    <navPoint id="part12" playOrder="16">
+      <navLabel>
+        <text>鄧要是會上當受騙，就不是鄧小平了</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part12"/>
+    </navPoint>
+    <navPoint id="part13" playOrder="17">
+      <navLabel>
+        <text>胡溫是好人，但難有大作為</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part13"/>
+    </navPoint>
+    <navPoint id="part14" playOrder="18">
+      <navLabel>
+        <text>李先念是個堅定的反改革派</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part14"/>
+    </navPoint>
+    <navPoint id="part15" playOrder="19">
+      <navLabel>
+        <text>必須實現議會民主政治</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part15"/>
+    </navPoint>
+    <navPoint id="part16" playOrder="20">
+      <navLabel>
+        <text>主張開放報禁</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part16"/>
+    </navPoint>
+    <navPoint id="part17" playOrder="21">
+      <navLabel>
+        <text>允許黨內有派，主張走民主之路</text>
+      </navLabel>
+      <content src="bodymatter.xhtml#part17"/>
+    </navPoint>
+
+    <navPoint id="rearnotes" playOrder="22">
+      <navLabel>
+        <text>註釋</text>
+      </navLabel>
+      <content src="backmatter.xhtml#rearnotes"/>
+    </navPoint>
+    <navPoint id="afterword" playOrder="23">
+      <navLabel>
+        <text>編後語</text>
+      </navLabel>
+      <content src="backmatter.xhtml#afterword"/>
     </navPoint>
   </navMap>
 </ncx>
