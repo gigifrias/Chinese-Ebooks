@@ -1,4 +1,4 @@
-/*Set character set to Traditional Chinese*/
+/*Set charset to Traditional Chinese*/
 @charset "big5";
 
 /*Declare latest references*/
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: "Adobe Fan Heiti Std";
+    font-family: "Adobe Heiti Std";
     font-weight: bold;
     src: url(fonts/AdobeFanHeitiStd-Regular.otf);
     }
@@ -26,12 +26,12 @@
 @font-face {
     font-family: "Hiragino Mincho Pro";
     font-weight: normal;
-    src: url(fonts/ヒラギノ明朝 Pro W3.otf);
+    src: url(fonts/ヒラギノ明朝ProW3.otf);
     }
 
 @font-face {
     font-family: "Hiragino Mincho Pro";
     font-weight: bold;
-    src: url(fonts/ヒラギノ明朝 Pro W6.otf);
+    src: url(fonts/ヒラギノ明朝ProW6.otf);
 }
 
