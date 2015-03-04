@@ -7,7 +7,6 @@
     <dc:date>2013-07-08T04:00:00+00:00</dc:date>
     <dc:description>中共前總書記趙紫陽爲何在被軟禁的生命最後階段爆發出縱情大笑？</dc:description><!--Add a description-->
     <dc:language>zh</dc:language>
-    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:identifier id="uuid_id" opf:scheme="uuid">816c1b80-d153-4b70-ae35-beefd036be15</dc:identifier><!-- Generate a UUID here: https://www.uuidgenerator.net/ -->
     <dc:identifier id="pub-identifier">urn:isbn:0000000000000</dc:identifier><!--Add the ISBN-->
     <dc:title>第篇: 趙紫陽最後的歲月</dc:title><!--Update the title-->
@@ -15,7 +14,6 @@
     <dc:subject>Guojia Mimi</dc:subject>
     <dc:subject>美國之音</dc:subject>
     <dc:subject>VOA</dc:subject>
-    <dc:identifier opf:scheme="calibre">816c1b80-d153-4b70-ae35-beefd036be15</dc:identifier>
     <meta name="cover" content="cover"/>
   </metadata>
 	<manifest>
