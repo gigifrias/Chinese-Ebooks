@@ -9,6 +9,7 @@
     <dc:language>zh</dc:language>
     <dc:date>0101-01-01T00:00:00+00:00</dc:date>
     <dc:identifier id="uuid_id" opf:scheme="uuid">816c1b80-d153-4b70-ae35-beefd036be15</dc:identifier>
+    <dc:identifier id="pub-identifier">urn:isbn:0000000000000</dc:identifier>
     <dc:title>第篇: 趙紫陽最後的歲月</dc:title>
     <dc:subject>国家机密</dc:subject>
     <dc:subject>Guojia Mimi</dc:subject>
