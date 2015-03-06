@@ -19,7 +19,7 @@
   </metadata>
 	<manifest>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <item id="cover-image" href="cover.jpg" media-type="image/jpeg"/>
+    <item id="cover-image" href="cover.jpeg" media-type="image/jpeg"/>
     <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
@@ -52,6 +52,6 @@
     <itemref idref="back"/>
   </spine>
   <guide>
-    <reference href="cover.jpg" title="Cover" type="cover"/>
+    <reference href="cover.jpeg" title="Cover" type="cover"/>
   </guide>
 </package>
