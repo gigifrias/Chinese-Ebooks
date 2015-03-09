@@ -35,6 +35,7 @@ svg {/*Wrapper for responsive scaling*/
 	margin: 1.5em 0 0;
 	padding: 0;
 }
+svg.full{page-break-before: always;}
 
 rect {/*Border around images to delineate all borders*/
 	fill: none;
@@ -129,6 +130,8 @@ blockquote.announcement {
 	text-align: center;
 	page-break-inside: avoid;
 }
+/*Styling the speaker label span*/
+.speaker{font-weight: bold;}
 
 /*Endnote references*/
 sup {
