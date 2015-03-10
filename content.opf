@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="3.0">
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:creator opf:role="aut" opf:file-as="VOA">VOA</dc:creator>
     <dc:creator opf:role="aut">美國之音</dc:creator>
@@ -44,8 +44,6 @@
     <item href="images/xxx.jpg" media-type="image/jpeg"/>
     <item href="images/xxx.jpg" media-type="image/jpeg"/>
 
-	<item href="LICENSE" id="license" media-type="application/xhtml+xml"/>
-	<item href="README.md" id="readme" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>
