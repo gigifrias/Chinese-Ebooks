@@ -7,8 +7,8 @@
     <dc:date>2013-07-08T04:00:00+00:00</dc:date>
     <dc:description>共产党总书记赵紫阳在生活中被软禁的最后阶段</dc:description><!--EDIT: Add a description-->
     <dc:language>zh</dc:language>
-    <dc:identifier id="uuid_id" opf:scheme="uuid">00000000-0000-000a-a000-be00000000000</dc:identifier><!--EDIT: Generate a UUID here: https://www.uuidgenerator.net/ -->
-    <dc:identifier id="pub-identifier" opf:scheme="ISBN">urn:isbn:0000000000000</dc:identifier><!--EDIT: Add the ISBN-->
+    <dc:identifier id="uuid_id">00000000-0000-000a-a000-be00000000000</dc:identifier><!--EDIT: Generate a UUID here: https://www.uuidgenerator.net/ -->
+    <dc:identifier id="pub-identifier">urn:isbn:0000000000000</dc:identifier><!--EDIT: Add the ISBN-->
     <dc:title>第篇: 趙紫陽最後的歲月</dc:title><!--EDIT: Update the title-->
     <dc:subject>国家机密</dc:subject>
     <dc:subject>Guojia Mimi</dc:subject>
