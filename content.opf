@@ -46,11 +46,11 @@
     <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
 
     <item id="photoCover" href="cover.jpeg" media-type="image/jpeg"/>
-
-    <item href="LICENSE" id="license" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
+    <itemref idref="cover"/>
     <itemref idref="titlepage"/>
+    <itemref idref="toc"/>
     <itemref idref="intro"/>
     <itemref idref="body"/>
     <itemref idref="back"/>
