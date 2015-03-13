@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="3.0">
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:creator opf:role="aut" opf:file-as="VOA">VOA</dc:creator>
-    <dc:creator opf:role="aut">美國之音</dc:creator>
+    <dc:creator id="author">VOA</dc:creator>
+    <meta refines="#author" property="alternate-script" xml:lang="zh-Hant">美國之音</meta>
     <dc:publisher>Mirror Publishing</dc:publisher>
     <dc:date>2013-07-08T04:00:00+00:00</dc:date>
     <dc:description>共产党总书记赵紫阳在生活中被软禁的最后阶段</dc:description><!--EDIT: Add a description-->
@@ -16,15 +16,16 @@
     <dc:subject>VOA</dc:subject>        
     <!-- cover meta element included for 2.0 reading system compatibility: -->
     <meta name="cover" content="cover"/>
+    <meta property="dcterms:modified">2015-00-00T00:00:00Z</meta>
   </metadata>
 	<manifest>
-    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="cover-image" href="cover.jpeg" media-type="image/jpeg"/>
-    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
     <item id="intro" href="introduction.xhtml" media-type="application/xhtml+xml"/>
-    <item id="body" href="bodymatter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="body" href="bodymatter.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="back" href="backmatter.xhtml" media-type="application/xhtml+xml"/>
     <item id="page_css" href="page_styles.css" media-type="text/css"/>
     <item id="css" href="stylesheet.css" media-type="text/css"/>
@@ -34,16 +35,19 @@
     <item id="font4" href="fonts/ヒラギノ明朝ProW3.otf" media-type="application/vnd.ms-opentype"/>
 
     <!--Update the images and videos-->
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
-    <item href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
+    <item id="photo1" href="images/xxx.jpg" media-type="image/jpeg"/>
 
+    <item id="photoCover" href="cover.jpeg" media-type="image/jpeg"/>
+
+    <item href="LICENSE" id="license" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>
@@ -51,7 +55,4 @@
     <itemref idref="body"/>
     <itemref idref="back"/>
   </spine>
-  <guide>
-    <reference href="cover.jpeg" title="Cover" type="cover"/>
-  </guide>
 </package>
